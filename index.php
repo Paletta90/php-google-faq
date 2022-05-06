@@ -36,9 +36,26 @@ $faqs = [
             text-decoration: none;
         }
 
-        .center{
+        .center {
             width: 60%;
             margin: 0 auto;
+        }
+
+        h2 {
+            color: #3c4043;
+            font-family: "Google Sans", sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            margin: 0;
+        }
+
+        p {
+            color: rgba(0, 0, 0, .87);
+            font-family: Roboto, arial, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
         }
     </style>
 
@@ -51,6 +68,7 @@ $faqs = [
 
     <div class="center">
 
+        <!-- 1° metodo -->
         <?php foreach($faqs as $array){ ?>
 
         <!-- Domanda -->
@@ -63,6 +81,9 @@ $faqs = [
         </p>
 
         <?php } ?>
+
+        <!-- 2° metodo -->
+        
 
     </div>
 
